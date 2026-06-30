@@ -16,16 +16,16 @@ export default function Categories() {
           </div>
           <h2 className="section-heading mt-4">Find your silhouette</h2>
           <p className="section-sub mt-4">
-            Four pillars of the Gulshan Modest wardrobe — each shaped around
+            Five pillars of the Gulshan Modest wardrobe — each shaped around
             comfort, coverage and quiet detail.
           </p>
         </Reveal>
  
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
           {categories.map((cat, i) => (
-            <Reveal key={cat.id} delay={(i % 4) as 0 | 1 | 2 | 3}>
+            <Reveal key={cat.id} delay={(i % 5) as any}>
               <a
-                href="#products"
+                href={`/shop?category=${cat.id}`}
                 className="lift group block relative rounded-2xl md:rounded-[28px] overflow-hidden shadow-card aspect-[3/4]"
               >
                 <Image

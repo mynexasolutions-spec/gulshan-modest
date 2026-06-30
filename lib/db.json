@@ -68,6 +68,16 @@
       "count": "6 styles",
       "is_active": true,
       "created_at": "2026-06-25T14:34:14Z"
+    },
+    {
+      "id": "salwar_kameez",
+      "name": "Luxe Salwar Kameez",
+      "slug": "luxe-salwar-kameez",
+      "description": "Exquisite Pakistani salwar suits, heavy embroidery, and luxury lawn sets",
+      "image_url": "/luxe-salwar-kameez.png",
+      "count": "12 styles",
+      "is_active": true,
+      "created_at": "2026-06-30T15:00:00Z"
     }
   ],
   "products": [
